@@ -41,7 +41,7 @@ except ImportError as e:
     BeautifulSoup = None
 
 try:
-    from . pelican_mathjax_markdown_extension import PelicanMathJaxExtension
+    from .pelican_mathjax_markdown_extension import PelicanMathJaxExtension
 except ImportError as e:
     PelicanMathJaxExtension = None
 
